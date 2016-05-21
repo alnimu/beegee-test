@@ -57,7 +57,7 @@ class Application
     public function createUrl($route, $params=[])
     {
         $params['route'] = $route;
-        return $_SERVER['HTTP_HOST'] . '?' . http_build_query($params);
+        return 'http://' . $_SERVER['HTTP_HOST'] . '?' . http_build_query($params);
     }
 
     private function _parseRequest()
