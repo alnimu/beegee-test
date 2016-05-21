@@ -49,7 +49,7 @@ class Recall extends BaseModel
     {
         $this->created = date('Y-m-d H:i:s');
         $allowed = array('name','email','content','created','image');
-        $sql = 'INSERT INTO ' . $this->tableName() . ' SET '.$this->pdoSet($allowed, $values, $this->getAttributes());
+        $sql = 'INSERT INTO admin_beegee.' . $this->tableName() . ' SET '.$this->pdoSet($allowed, $values, $this->getAttributes());
         $stm = self::$db->prepare($sql);
         return $stm->execute($values);
     }
@@ -67,7 +67,7 @@ class Recall extends BaseModel
     public function findByPk($pk)
     {
         $model = null;
-        $query = 'SELECT * FROM ' . $this->tableName() . ' WHERE id=?';
+        $query = 'SELECT * FROM admin_beegee.' . $this->tableName() . ' WHERE id=?';
 
         $stmt = self::$db->prepare($query);
         $stmt->execute([$pk]);
@@ -87,7 +87,7 @@ class Recall extends BaseModel
     public function findAll($active = true)
     {
         $models = [];
-        $query = 'SELECT * FROM ' . $this->tableName();
+        $query = 'SELECT * FROM admin_beegee.' . $this->tableName();
         if ($active) {
             $query .= ' WHERE status=' . self::STATUS_ACTIVE;
         }
@@ -145,14 +145,14 @@ class Recall extends BaseModel
 
     public static function activate($id)
     {
-        $sql = 'UPDATE ' . self::model()->tableName() . ' SET status=1 WHERE id = :id';
+        $sql = 'UPDATE admin_beegee.' . self::model()->tableName() . ' SET status=1 WHERE id = :id';
         $stm = self::$db->prepare($sql);
         $stm->execute([':id'=>$id]);
     }
 
     public static function deactivate($id)
     {
-        $sql = 'UPDATE ' . self::model()->tableName() . ' SET status=0 WHERE id = :id';
+        $sql = 'UPDATE admin_beegee.' . self::model()->tableName() . ' SET status=0 WHERE id = :id';
         $stm = self::$db->prepare($sql);
         $stm->execute([':id'=>$id]);
     }
