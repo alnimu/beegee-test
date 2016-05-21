@@ -39,7 +39,7 @@ class Recall extends BaseModel
         if (!v::stringType()->email()->notEmpty()->noWhitespace()->validate($this->email))
             $this->addError('email', 'Wrong email.');
 
-        if (!v::stringType()->notEmpty()->noWhitespace()->validate($this->content))
+        if (!v::stringType()->notEmpty()->validate($this->content))
             $this->addError('content', 'Wrong content.');
         
         return !$this->hasErrors();
