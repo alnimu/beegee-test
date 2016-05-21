@@ -2,8 +2,8 @@
 
 return [
     'db' => [
-        'dsn' => 'mysql:host=127.0.0.1;port=4040;dbname=beejee;charset=utf8',
-        'username' => 'root',
-        'password' => 'gfhjkm'
+        'dsn' => 'mysql:localhost;dbname=admin_beegee;charset=utf8',
+        'username' => 'admin_beegee',
+        'password' => '6o04EMBebT'
     ]
 ];
