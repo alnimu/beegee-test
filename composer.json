@@ -1,0 +1,13 @@
+{
+  "require": {
+    "respect/validation": "^1.0",
+    "bdelespierre/underscore": "dev-master",
+    "verot/class.upload.php": "dev-master"
+  },
+  "config": {
+    "vendor-dir": "application/vendor"
+  },
+  "autoload": {
+    "classmap": []
+  }
+}
