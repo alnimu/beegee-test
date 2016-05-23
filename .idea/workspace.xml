@@ -28,13 +28,23 @@
       <file leaf-file-name="Recall.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/Recall.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            <state relative-caret-position="455">
+              <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
               <folding>
-                <marker date="1463993367565" expanded="true" signature="1317:1373" placeholder="INSERT INTO admin_beegee.${$this-&gt;tableName()}... " />
-                <marker date="1463993367565" expanded="true" signature="1943:2007" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
-                <marker date="1463993367565" expanded="true" signature="2469:2496" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+                <marker date="1463993555405" expanded="true" signature="1317:1373" placeholder="INSERT INTO admin_beegee.${$this-&gt;tableName()}... " />
+                <marker date="1463993555405" expanded="true" signature="1971:2035" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+                <marker date="1463993555405" expanded="true" signature="2497:2524" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -172,6 +182,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beejee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beejee" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -241,7 +269,7 @@
       <workItem from="1463850042291" duration="227000" />
       <workItem from="1463850290963" duration="1245000" />
       <workItem from="1463901440867" duration="454000" />
-      <workItem from="1463993336083" duration="32000" />
+      <workItem from="1463993336083" duration="220000" />
     </task>
     <task id="LOCAL-00001" summary="Settings">
       <created>1463850367959</created>
@@ -292,11 +320,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463851395760</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Settings">
+      <created>1463993372057</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1463993372057</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27763000" />
+    <option name="totallyTimeSpent" value="27951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="-4" width="1859" height="1084" extended-state="6" />
@@ -377,7 +412,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding />
+          <folding>
+            <marker date="1463993555405" expanded="true" signature="1317:1373" placeholder="INSERT INTO admin_beegee.${$this-&gt;tableName()}... " />
+            <marker date="1463993555405" expanded="true" signature="1971:2035" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+            <marker date="1463993555405" expanded="true" signature="2497:2524" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -457,13 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -565,11 +597,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Recall.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="455">
+          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+          <folding>
+            <marker date="1463993555405" expanded="true" signature="1317:1373" placeholder="INSERT INTO admin_beegee.${$this-&gt;tableName()}... " />
+            <marker date="1463993555405" expanded="true" signature="1971:2035" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+            <marker date="1463993555405" expanded="true" signature="2497:2524" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+          </folding>
         </state>
       </provider>
     </entry>
