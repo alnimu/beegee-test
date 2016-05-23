@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d505daeb-e77a-4c7c-991c-0f77c0a14891" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/main.php" afterPath="$PROJECT_DIR$/application/config/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Recall.php" afterPath="$PROJECT_DIR$/application/models/Recall.php" />
     </list>
     <ignored path="beejee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,22 +24,22 @@
     <favorites_list name="beejee" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Recall.php" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Recall.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/Recall.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+            <state relative-caret-position="342">
+              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
               <folding>
-                <marker date="1463993555405" expanded="true" signature="1317:1373" placeholder="INSERT INTO admin_beegee.${$this-&gt;tableName()}... " />
-                <marker date="1463993555405" expanded="true" signature="1971:2035" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
-                <marker date="1463993555405" expanded="true" signature="2497:2524" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+                <marker date="1464002593361" expanded="true" signature="1317:1360" placeholder="INSERT INTO admin_beegee.${$this-&gt;tableName()}... " />
+                <marker date="1464002593361" expanded="true" signature="1945:1996" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+                <marker date="1464002593361" expanded="true" signature="2458:2472" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -52,7 +52,7 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="630">
               <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
               <folding />
             </state>
@@ -96,8 +96,8 @@
         <option value="$PROJECT_DIR$/application/views/default/index.php" />
         <option value="$PROJECT_DIR$/application/views/default/update.php" />
         <option value="$PROJECT_DIR$/core/Application.php" />
-        <option value="$PROJECT_DIR$/application/models/Recall.php" />
         <option value="$PROJECT_DIR$/application/config/main.php" />
+        <option value="$PROJECT_DIR$/application/models/Recall.php" />
       </list>
     </option>
   </component>
@@ -142,6 +142,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,8 +232,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +297,8 @@
       <workItem from="1463850042291" duration="227000" />
       <workItem from="1463850290963" duration="1245000" />
       <workItem from="1463901440867" duration="454000" />
-      <workItem from="1463993336083" duration="930000" />
+      <workItem from="1463993336083" duration="1534000" />
+      <workItem from="1464002552742" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Settings">
       <created>1463850367959</created>
@@ -362,18 +363,25 @@
       <option name="project" value="LOCAL" />
       <updated>1463993557503</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Settings">
+      <created>1463994649480</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1463994649480</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28661000" />
+    <option name="totallyTimeSpent" value="29306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="-4" width="1859" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19746277" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19966906" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -436,6 +444,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/models/Recall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+          <folding>
+            <marker date="1464002593361" expanded="true" signature="1317:1360" placeholder="INSERT INTO admin_beegee.${$this-&gt;tableName()}... " />
+            <marker date="1464002593361" expanded="true" signature="1945:1996" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+            <marker date="1464002593361" expanded="true" signature="2458:2472" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -449,9 +485,9 @@
         <state relative-caret-position="738">
           <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
           <folding>
-            <marker date="1463993555405" expanded="true" signature="1317:1373" placeholder="INSERT INTO admin_beegee.${$this-&gt;tableName()}... " />
-            <marker date="1463993555405" expanded="true" signature="1971:2035" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
-            <marker date="1463993555405" expanded="true" signature="2497:2524" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+            <marker date="1464002593361" expanded="true" signature="1317:1360" placeholder="INSERT INTO admin_beegee.${$this-&gt;tableName()}... " />
+            <marker date="1464002593361" expanded="true" signature="1945:1996" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+            <marker date="1464002593361" expanded="true" signature="2458:2472" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
           </folding>
         </state>
       </provider>
@@ -628,21 +664,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="630">
           <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Recall.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-          <folding>
-            <marker date="1463993555405" expanded="true" signature="1317:1373" placeholder="INSERT INTO admin_beegee.${$this-&gt;tableName()}... " />
-            <marker date="1463993555405" expanded="true" signature="1971:2035" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
-            <marker date="1463993555405" expanded="true" signature="2497:2524" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,6 +675,18 @@
         <state relative-caret-position="72">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Recall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <marker date="1464002593361" expanded="true" signature="1317:1360" placeholder="INSERT INTO admin_beegee.${$this-&gt;tableName()}... " />
+            <marker date="1464002593361" expanded="true" signature="1945:1996" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+            <marker date="1464002593361" expanded="true" signature="2458:2472" placeholder="SELECT * FRO... ${$this-&gt;tableName()}" />
+          </folding>
         </state>
       </provider>
     </entry>
