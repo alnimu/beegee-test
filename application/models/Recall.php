@@ -59,7 +59,7 @@ class Recall extends BaseModel
         $this->modified = 1;
 
         $allowed = array('name','email','content','modified');
-        $sql = 'UPDATE ' . $this->tableName() . ' SET '.$this->pdoSet($allowed, $values, $this->getAttributes());
+        $sql = 'UPDATE admin_beegee.' . $this->tableName() . ' SET '.$this->pdoSet($allowed, $values, $this->getAttributes());
         $stm = self::$db->prepare($sql);
         return $stm->execute($values);
     }
